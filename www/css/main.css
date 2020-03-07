@@ -1,0 +1,37 @@
+small{font-weight:normal}
+.text-center{text-align:center}
+.hide{display:none}
+.pay{padding:10px;max-width:640px;margin:0 auto}
+.pay h1{font-size:24px}
+.pay h1 strong{color:#FF0000;font-size:32px}
+.pay .num{font-size:24px}
+.con{margin:0 5px;padding-top:1px;border-radius:10px;background-color:#F7F7F7}
+.con .hd{padding:15px 0;width:100px}
+.con .bd{padding:20px 0 40px 0;color:#9ed3ed;border-radius:0 0 10px 10px}
+.con .bd img{max-height:200px}
+.con .bd img{width:70%}
+.wxcon .bd{background-color:#00af43;color:#a8e1ba}
+.alicon .bd{background-color:#008cd1}
+.button-small{font-size:80%}
+.form-item{margin:0 auto 20px auto;max-width:50%}
+.form-item input{width:100%}
+.alert-danger{color:#FF0000}
+.footer{margin:30px 0 15px 0;text-align:center;color:#999;font-size:14px}
+.btn-success,
+.btn-danger,
+.btn-warning,
+.btn-info{color:#FFF;border-radius:4px;text-shadow:0 1px 1px rgba(0, 0, 0, 0.2)}
+.btn-success{background:rgb(28, 184, 65)}
+.btn-danger{background:rgb(202, 60, 60)}
+.btn-warning{background:rgb(223, 117, 20)}
+.btn-info{background:rgb(66, 184, 221)}
+.btn-sm{font-size:13px}
+.btn-xs{font-size:11px}
+.label-success,.label-danger,.label-warning,.label-info{color:#FFF;padding:1px 4px;border-radius:4px}
+.label-success{background:rgb(28, 184, 65)}
+.label-danger{background:rgb(202, 60, 60)}
+.label-warning{background:rgb(223, 117, 20)}
+.label-info{background:rgb(66, 184, 221)}
+@media screen and (max-width: 48em) {
+.form-item{max-width:65%}
+}
