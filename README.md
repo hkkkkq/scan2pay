@@ -14,6 +14,15 @@ Scan2Pay is a simple and fast payment gateway for wechat and alipay, only suppor
 
 ## Install
 
+You need get PHP, php-pecl-redis, php-fpm, nginx and redis ready first.
+
+Such as install commands in CentOS:
+```
+yum -y install php php-fpm php-pecl-redis nginx redis
+```
+
+Then follow the steps:
+
 1. Download source code
 2. Replace the qr image with your wechat and alipay qr image in the directory: `/www/img/`
 3. Create directory `/runtime` and add write permission to php-fpm
