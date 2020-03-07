@@ -17,7 +17,7 @@ Scan2Pay is a simple and fast payment gateway for wechat and alipay, written by 
 1. Download source code
 2. Replace the qr image with your wechat and alipay qr image in the directory: `/www/img/`
 3. Create directory `/runtime` and add write permission to php-fpm
-4. Config your web server with a domain
+4. Config your web server with a domain, example in [Nginx.conf.md](./Nginx.conf.md)
 
 That's all, now visit your domain to get start.
 
