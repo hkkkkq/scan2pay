@@ -1,6 +1,6 @@
 # Scan2Pay
 
-Scan2Pay is a simple and fast payment gateway for wechat and alipay, only support qr code / image scan, written by php.
+Scan2Pay is a simple and fast payment gateway for wechat and alipay, only support qr code / image scan, written in php.
 
 
 ## Features
