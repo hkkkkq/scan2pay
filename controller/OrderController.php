@@ -27,6 +27,7 @@ Class OrderController extends Controller {
 
         $stats = [
             'total' => 0,
+            'total_paid' => 0,
             'total_refund' => 0,
             'amount' => 0,
             'amount_paid' => 0,
