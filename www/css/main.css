@@ -1,7 +1,7 @@
 small{font-weight:normal}
 .text-center{text-align:center}
 .hide{display:none}
-.pay{padding:10px;max-width:640px;margin:0 auto}
+.pay{padding:0 10px 10px 10px;max-width:640px;margin:0 auto}
 .pay h1{font-size:24px}
 .pay h1 strong{color:#FF0000;font-size:32px}
 .pay .num{font-size:24px}

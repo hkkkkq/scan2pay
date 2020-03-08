@@ -15,6 +15,7 @@ if (empty(USC::$app['config']['wechatQr']) || empty(USC::$app['config']['alipayQ
     <p class="text-center">
         扫码后<strong class="label-warning">务必</strong>先在备注里填订单编号：
         <strong class="num label-warning"><?=$viewData['order']['index']?></strong>
+        <br><small>付款后请等待卖家发货或联系他</small>
     </p>
 
     <div class="pure-g">
