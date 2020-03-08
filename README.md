@@ -64,7 +64,7 @@ user_id     - [optional] Id of the user
 ### Http notify api
 
 If you call api/createorder with pamameter **order_id** and there is notify url,
-the order status will post to the notify url when the order status is changing to **paid**.
+the order status will post to the notify url when the order status is changing to **paid** or **refund**.
 
 Url:
 `http(s)://yourdomain/notifyurl`
@@ -75,7 +75,7 @@ Method:
 Parameters:
 ```
 order_id    - Id of the order
-status      - Status code: 200
+status      - Status: paid / refund
 user_id     - [optional] Id of the user
 ```
 
